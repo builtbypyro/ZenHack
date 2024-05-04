@@ -40,7 +40,7 @@ export const WavyBackground = ({
       case "slow":
         return 0.001;
       case "fast":
-        return 0.005;
+        return 0.01;
       default:
         return 0.001;
     }
@@ -76,7 +76,7 @@ export const WavyBackground = ({
       ctx.lineWidth = waveWidth || 30;
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
-        var y = noise(x / 600, 0.3 * i, nt) * 75;
+        var y = noise(x / 800, 0.3 * i, nt) * 75;
         ctx.lineTo(x, y + h * 0.4); // height setting fr typ shit im dripping all over my balls on sum bool type shit
       }
       ctx.stroke();
