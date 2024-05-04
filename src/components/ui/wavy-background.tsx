@@ -40,7 +40,7 @@ export const WavyBackground = ({
       case "slow":
         return 0.001;
       case "fast":
-        return 0.006;
+        return 0.0025;
       default:
         return 0.001;
     }
