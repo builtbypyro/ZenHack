@@ -263,3 +263,8 @@ export default function FloatingNavDemo() {
 
 
 
+
+export const metadata = {
+  title: "ZenHack",
+  description: "A hackathon for the next generation of inventors, high school students, dedicated to facilitating the creation of solutions for various problems in modern society.",
+}
