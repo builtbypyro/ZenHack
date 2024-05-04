@@ -1,5 +1,6 @@
-"use client";
+"use client"
 import React from "react";
+import Head from 'next/head'
 import Image from "next/image";
 import { WavyBackground } from "../components/ui/wavy-background";
 import { FloatingNav } from "../components/ui/floating-navbar";
@@ -34,6 +35,10 @@ import { motion } from "framer-motion";
 const DummyContent = () => {
   return (
     <>
+    <Head>
+        <title>ZenHack</title>
+        <meta property="og:title" content="ZenHack" key="title" />
+      </Head>
     <div className="bg-black">
     <WavyBackground className="max-w-4xl mx-auto pb-48">
       
@@ -102,7 +107,7 @@ const DummyContent = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger>What is a "hackathon"?</AccordionTrigger>
+        <AccordionTrigger>What is a &quot;hackathon&quot;?</AccordionTrigger>
         <AccordionContent>
         A hackathon is an event where teams collaborate on a project, or &quot;hack&quot;, given a certain time limit. At ZenHack, teams of 1-4 collaborate over 24 hours to brainstorm and innovate solutions to real-world problems. Or they are free to work on whatever fun/silly ideas they have in mind, the door is open. We will be inviting various mentors, judges, and guests working in the tech industry to share their expertise and knowledge to our participants. Winning teams will be selected based on various criteria that will be revealed closer to our event.
         </AccordionContent>
@@ -264,7 +269,3 @@ export default function FloatingNavDemo() {
 
 
 
-export const metadata = {
-  title: "ZenHack",
-  description: "A hackathon for the next generation of inventors, high school students, dedicated to facilitating the creation of solutions for various problems in modern society.",
-}
