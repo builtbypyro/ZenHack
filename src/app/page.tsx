@@ -92,7 +92,7 @@ const DummyContent = () => {
       <AccordionItem value="item-1">
         <AccordionTrigger>What kind of experience do I need?</AccordionTrigger>
         <AccordionContent>
-         None! You don't even need to know how to code! Teammates who can design are also valuable!
+         None! You don&apos;t even need to know how to code! Teammates who can design are also valuable!
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
@@ -104,7 +104,7 @@ const DummyContent = () => {
       <AccordionItem value="item-3">
         <AccordionTrigger>What is a "hackathon"?</AccordionTrigger>
         <AccordionContent>
-        A hackathon is an event where teams collaborate on a project, or "hack", given a certain time limit. At ZenHack, teams of 1-4 collaborate over 24 hours to brainstorm and innovate solutions to real-world problems. Or they are free to work on whatever fun/silly ideas they have in mind, the door is open. We will be inviting various mentors, judges, and guests working in the tech industry to share their expertise and knowledge to our participants. Winning teams will be selected based on various criteria that will be revealed closer to our event.
+        A hackathon is an event where teams collaborate on a project, or &quot;hack&quot;, given a certain time limit. At ZenHack, teams of 1-4 collaborate over 24 hours to brainstorm and innovate solutions to real-world problems. Or they are free to work on whatever fun/silly ideas they have in mind, the door is open. We will be inviting various mentors, judges, and guests working in the tech industry to share their expertise and knowledge to our participants. Winning teams will be selected based on various criteria that will be revealed closer to our event.
         </AccordionContent>
       </AccordionItem>
 
@@ -230,7 +230,7 @@ const items = [
   {
     title: "Beginner Friendly",
     description:
-      "You don't have a to be a programming genius to participate. We're here to learn.",
+      "You don&apos;t have a to be a programming genius to participate. We&apos;re here to learn.",
     header: <SkeletonFour />,
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
